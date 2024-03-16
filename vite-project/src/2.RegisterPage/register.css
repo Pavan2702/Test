@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.container .header-p{
+    width: 500px;
+}
+
+.container .header-p .header{
+    padding: 10px;
+}
+
+.container .header-p .main{
+   background-color: lightyellow; 
+   padding: 15px 50px;
+}
+
+.container .header-p .main .name{
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.container .header-p .main .name input{
+    border-radius: 10px;
+    border-color: black;
+    padding-left: 5px;
+}
+
+.container .header-p .main .email{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-bottom: 15px;
+}
+
+.container .header-p .main .email input{
+    border-radius: 10px;
+    border-color: black;
+    padding-left: 5px;
+    width: 70%;
+}
+
+.container .header-p .main .selectCity{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-bottom: 15px;
+}
+
+.container .header-p .main .selectCity select{
+    width: 50%;
+}
+
+.container .header-p .main .selectDoc .label{
+    padding: 10px 0px;
+}
+
+.container .header-p .main .selectDoc .docs{
+    display: flex;
+    flex-direction: column;
+}
+
+ 
